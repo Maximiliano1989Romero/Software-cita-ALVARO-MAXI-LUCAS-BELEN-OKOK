@@ -89,9 +89,9 @@ export const ContactForm = () => {
 
             <Button
               variant="primary"
-              className="button-maps mt-3 col-3 m-2"
+              className="button-maps mt-3 col-3 m-297BE5A"
               onClick={() => window.open(googleMapsUrl, '_blank')} >
-              Ubicación de nuestra clínica
+              Aquí Nos Encuentras! 
             </Button>
             <iframe 
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1831.0010805200143!2d-0.37181847120525063!3d39.48368352468122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1727355064456!5m2!1ses!2ses"

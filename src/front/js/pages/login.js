@@ -34,7 +34,7 @@ export const Login = () => {
                     fontWeight: 'bold',
                     color: '#074173', // Color del título
                     textShadow: '1px 1px 2px #1679AB'
-                }}>Bienvenido a Clínica Oftalmológica</h1>
+                }}>Accede a tu Área Personal</h1>
                 <form onSubmit={handleSubmit}>
                     <div className="mb-3 input-group">
                         <span className="input-group-text" style={{ backgroundColor: '#074173', color: 'white' }}>
@@ -92,7 +92,7 @@ export const Login = () => {
                 <div className="position-fixed top-0 end-0 p-3" style={{ zIndex: 1050 }}>
                     <div className="toast show" role="alert" aria-live="assertive" aria-atomic="true" style={{ backgroundColor: '#C5FF95' }}>
                         <div className="toast-header" style={{ backgroundColor: '#5DEBD7', color: '#074173' }}>
-                            <strong className="me-auto">¡Bienvenido a Oftalmología Ventilador!</strong>
+                            <strong className="me-auto">¡Bienvenido a VisionCare!</strong>
                         </div>
                         <div className="toast-body" style={{ color: '#074173' }}>
                             <p>Serás redirigido a tu Panel de Usuario en breve...</p>

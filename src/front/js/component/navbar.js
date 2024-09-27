@@ -8,7 +8,8 @@ export const CustomNavbar = () => {
   return (
     <BootstrapNavbar variant="dark" expand="lg" className="shadow-sm py-3 sticky-top custom-navbar">
       <Container>
-        <BootstrapNavbar.Brand href="/" className="font-weight-bold text-uppercase">
+     
+        <BootstrapNavbar.Brand href="/" className="font-weight-bold text-uppercase m-5">
           Oftalmología
         </BootstrapNavbar.Brand>
         <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
